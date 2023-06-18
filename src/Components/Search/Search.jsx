@@ -66,9 +66,9 @@ const cachedDataRef = useRef({});
             <input type="search" name="" id="" placeholder='Search Here...' value={searchText} onChange={(e) => {
               setsearchText(e.target.value);
             }} />
-          </div>
           <div className="action">
             <button className="btn" onClick={fetchCountry}>Search</button>
+          </div>
           </div>
         </div>
         <div className="search-result">

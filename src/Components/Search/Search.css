@@ -23,6 +23,12 @@
     justify-content: center;
     align-items: center;
 }
+.input{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
 .search-box input{
     font-size: 1.2rem;
     padding: 8px 20px;
@@ -41,7 +47,6 @@
     font-size: 1.2rem;
     background-color: rgb(36, 124, 213);
     color: #ffff;
-    margin-left: 20px;
 }
 .search-result{
     width: 100%;
@@ -159,8 +164,5 @@
     }
     .search-card{
         padding:20px 30px;
-    }
-    .btn{
-        margin-left: 5px;
     }
 }
