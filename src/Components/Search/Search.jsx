@@ -26,7 +26,13 @@ const Search = (props) => {
 
   function fetchCountry() {
     let countryName = searchText;
-    let finalURL = `https://restcountries.com/v3.1/name/${countryName?countryName:selectedCountry}?fullText=true  `
+    
+    let input = document.querySelector('.input input')
+    setTimeout(() => {
+      input.value = ''
+    }, 3000);
+
+    let finalURL = `https://restcountries.com/v3.1/name/${countryName?countryName:selectedCountry}?fullText=true`;
   
 // --------------------------------------------------------------
   // Checking if data for the same request is already cached or not
