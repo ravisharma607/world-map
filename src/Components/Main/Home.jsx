@@ -4,8 +4,7 @@ import Search from '../Search/Search'
 import './Home.css'
 const Home = () => {
     const [selectedPosition, setselectedPosition] = useState('india')
-    const [selectedCountry, setselectedCountry] = useState('India')
-    console.log(selectedPosition);
+    const [selectedCountry, setselectedCountry] = useState('india')
     return (
         <>
             <div className="container">
@@ -13,7 +12,7 @@ const Home = () => {
                     <WorldMap selectedPosition={selectedPosition} selectedCountry={selectedCountry} setselectedCountry={setselectedCountry} />
                 </div>
                 <div className='search'>
-                    <Search selectedPosition={selectedPosition} setselectedPosition={setselectedPosition} selectedCountry={selectedCountry} />
+                    <Search selectedPosition={selectedPosition} setselectedPosition={setselectedPosition} selectedCountry={selectedCountry} setselectedCountry={setselectedCountry} />
                 </div>
             </div>
         </>

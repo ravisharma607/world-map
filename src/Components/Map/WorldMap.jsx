@@ -38,7 +38,7 @@ const WorldMap = ({setselectedCountry }) => {
 
   return (
     <>
-      <MapContainer center={[51.505, -0.09]} zoom={4} scrollWheelZoom={false} className='MapContainer' >
+      <MapContainer center={[51.505, -0.09]} zoom={4} scrollWheelZoom={false} className="MapContainer animate__animated animate__bounceIn">
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
           url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png"
