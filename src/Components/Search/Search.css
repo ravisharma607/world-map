@@ -117,6 +117,12 @@
     }
 }
 @media screen and (max-width:550px){
+    .search-box input{
+        font-size: 1rem;
+    }
+    .btn{
+        font-size: 1rem;
+    }
     .search-result ul{
         margin-top: 20px;
         font-size: 1.1rem;
@@ -128,6 +134,12 @@
     }
 }
 @media screen and (max-width:450px){
+    .search-box input{
+        font-size: .7rem;
+    }
+    .btn{
+        font-size: .7rem;
+    }
     .search-result ul{
         font-size: .7rem;
     }
@@ -141,10 +153,10 @@
 }
 @media screen and (max-width:300px){
     .search-box input{
-        font-size: .7rem;
+        font-size: .5rem;
     }
     .btn{
-        font-size: .7rem;
+        font-size: .5rem;
     }
     .search-result ul{
         font-size: .5rem;
