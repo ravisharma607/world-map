@@ -100,3 +100,38 @@
         object-fit: cover;
     }
 }
+@media screen and (max-width:550px){
+    .search-box input{
+        font-size: 1rem;
+    }
+    .btn{
+        font-size: 1rem;
+    }
+    .search-result ul{
+        margin-top: 20px;
+        font-size: 1.1rem;
+    }
+    .search-result img{
+        width: 300px;
+        height: 150px;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width:400px){
+    .search-box input{
+        font-size: .7rem;
+    }
+    .btn{
+        font-size: .7rem;
+    }
+    .search-result ul{
+        font-size: 1rem;
+    }
+    .search-result img{
+        width: 250px;
+        height: 150px;
+    }
+    .search-card{
+        padding:40px 30px;
+    }
+}
