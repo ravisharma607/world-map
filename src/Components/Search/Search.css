@@ -27,6 +27,9 @@
     width: 100%;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 10px;
 }
 .search-box input{
@@ -114,12 +117,6 @@
     }
 }
 @media screen and (max-width:550px){
-    .search-box input{
-        font-size: 1rem;
-    }
-    .btn{
-        font-size: 1rem;
-    }
     .search-result ul{
         margin-top: 20px;
         font-size: 1.1rem;
@@ -131,12 +128,6 @@
     }
 }
 @media screen and (max-width:450px){
-    .search-box input{
-        font-size: .7rem;
-    }
-    .btn{
-        font-size: .7rem;
-    }
     .search-result ul{
         font-size: .7rem;
     }
@@ -150,10 +141,10 @@
 }
 @media screen and (max-width:300px){
     .search-box input{
-        font-size: .5rem;
+        font-size: .7rem;
     }
     .btn{
-        font-size: .5rem;
+        font-size: .7rem;
     }
     .search-result ul{
         font-size: .5rem;
